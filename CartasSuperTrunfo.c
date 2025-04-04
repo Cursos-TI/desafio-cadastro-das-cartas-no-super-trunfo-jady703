@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
+
 int main(){
 char Estado[20] = 'Bahia';
 char Codigo[10]= 'B01';
@@ -12,7 +11,7 @@ float PIB = 115.900000000;
 int PontosTuristicos = 160;
 
 
-printf("Digite o Estado: \n");
+printf("Digite o nome do Estado: \n");
 scanf('%s', &Estado);
 
 printf("Digite o Codigo;=: \n");
@@ -33,9 +32,11 @@ scanf('&f', &PIB);
 
 printf("Digite o PontosTuristicos: \n");
 scanf('%d', &PontosTuristicos);
+
+printf("Nome do Estado %s \n - Codigo %s \n - Cidade %s-", Estado, Codigo, Cidade);
+printf("População %d \n - Áreakm² %f \n - PIB %f - PontosTuristicos %d \n", População, Áreakm², PIB,PontosTuristicos);
+
+
+
 return 0;
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o códi
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 }

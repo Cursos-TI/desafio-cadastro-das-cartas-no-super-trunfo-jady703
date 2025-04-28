@@ -2,41 +2,43 @@
 
 
 int main(){
-char Estado[20] = 'Bahia';
-char Codigo[10]= 'B01';
-char Cidade[20]= 'Salvador';
-int População = 14850513;
-float Áreakm² = 567.295;
-float PIB = 115.900000000;
-int PontosTuristicos = 160;
+char estado[20]= "Bahia";
+char codigo[10]= "B01";
+char cidade[20]= "Salvador";
+int população = 14850513;
+double areakm² = 567.295;
+double pib = 115.900000000;
+int pontosturisticos = 160;
 
 
-printf("Digite o nome do Estado: \n");
-scanf('%s', &Estado);
+printf("Digite o nome do estado: \n");
+scanf('%s', &estado);
 
-printf("Digite o Codigo;=: \n");
-scanf('%s', &Codigo);
+printf("Digite o codigo: \n");
+scanf('%s', &codigo);
 
-printf("Digite o nome da Cidade: \n");
-scanf('%s', &Cidade);
+printf("Digite o nome da cidade: \n");
+scanf('%s', &cidade);
 
 
-printf("Digite a População: \n");
-scanf('%d', &População);
+printf("Digite a população: \n");
+scanf('%e', &população);
 
-printf("Digite a Área: \n");
-scanf('%f', &Áreakm²);
+printf("Digite a area: \n");
+scanf('%e', &areakm²);
 
-printf("Digite o PIB: \n");
-scanf('&f', &PIB);
+printf("Digite o pib: \n");
+scanf('&e', &pib);
 
-printf("Digite o PontosTuristicos: \n");
-scanf('%d', &PontosTuristicos);
+printf("Digite o pontosturisticos: \n");
+scanf('%d', &pontosturisticos);
 
-printf("Nome do Estado %s \n - Codigo %s \n - Cidade %s-", Estado, Codigo, Cidade);
-printf("População %d \n - Áreakm² %f \n - PIB %f - PontosTuristicos %d \n", População, Áreakm², PIB,PontosTuristicos);
+printf("Nome do estado %s \n - codigo %s \n - cidade %s-", estado, codigo, cidade);
+printf("população %d \n - areakm² %e \n - pib %e - pontosturisticos %d \n", população, areakm², pib,pontosturisticos);
+
+
 
 
 
 return 0;
-}
+} 
